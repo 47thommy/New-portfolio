@@ -38,13 +38,16 @@
   transform: translateY(0);
 }
 .section__projects-icon {
-  position: absolute;
-  left: 15px;
-  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+  // left: 15px;
+  // bottom: 40px;
 }
 .section__projects-icon a {
   font-size: 30px;
-  margin-bottom: 3px;
+
   color: #fff;
   display: block;
 }
